@@ -8,17 +8,18 @@ import './sass/style.scss'
 import Primerka from './pages/Primerka/Primerka';
 
 function App() {
+
   return (
     <>
-    <Routes>
-      <Route path='' element={<Layout/>}>
-        <Route path='/' element={<Home/>}/>
-        <Route path='deliver' element={<Deliver/>}/>
-        <Route path='Contact' element={<Contact/>}/>
-        <Route path='showRoom' element={<ShowRoom/>}/>
-        <Route path='Primerka' element={<Primerka/>}/>
-      </Route>
-    </Routes>
+      <Routes>
+        <Route path='' element={<Layout />}>
+          <Route path='/' element={<Home />} />
+          <Route path='deliver' element={<Deliver />} />
+          <Route path='Contact' element={<Contact />} />
+          <Route path='showRoom' element={<ShowRoom />} />
+          <Route path='Primerka' element={<Primerka />} />
+        </Route>
+      </Routes>
     </>
   );
 }

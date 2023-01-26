@@ -1,11 +1,12 @@
 import React from 'react'
-import ReactPlayer from 'react-player'
+import FloatBtn from '../../Components/FloatBtn'
 import Question from '../../Components/Question'
 
 const showRoom = () => {
     return (
         <div className='Showroom'>
             <div className="container">
+                <FloatBtn />
                 <h2 class="showroom-title title">
                     <span>
                         НАШ ШОУРУМ

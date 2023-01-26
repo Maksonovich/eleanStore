@@ -1,0 +1,28 @@
+.FloatingIconInsta {
+    background-color: #ff0000;
+}
+
+.FloatingIconArea {
+    background-color: rgb(101, 233, 12);
+}
+
+.FloatingIconMessage {
+    background-color: rgb(240, 200, 22);
+}
+
+.FloatingIconQuestion {
+    display: flex;
+}
+
+.ModalChat {
+    width: 300px;
+    height: 600px;
+    position: fixed;
+    top: 35%;
+    bottom: 40px;
+    left: 75%;
+    background-color: rgb(214, 214, 214);
+    box-shadow: 40px;
+    border-radius: 25px;
+    transition: 2s;
+}

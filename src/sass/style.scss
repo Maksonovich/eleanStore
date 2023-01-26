@@ -8,6 +8,8 @@
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     color: #000;
+    user-select: none;
+    user-zoom: none;
 }
 
 html {
@@ -37,3 +39,4 @@ html {
 @import "../pages/showRoom/ShowRoom.scss";
 @import '../pages/Contact/Contact.scss';
 @import '../pages/Primerka/Primerka.scss';
+@import './Modal.scss'
