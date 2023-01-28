@@ -6,8 +6,11 @@ import ShowRoom from "./pages/showRoom/ShowRoom"
 import Home from './pages/Home/Home';
 import './sass/style.scss'
 import Primerka from './pages/Primerka/Primerka';
+import Catalog from './pages/Catalog/Catalog';
 
 function App() {
+
+  
 
   return (
     <>
@@ -18,6 +21,7 @@ function App() {
           <Route path='Contact' element={<Contact />} />
           <Route path='showRoom' element={<ShowRoom />} />
           <Route path='Primerka' element={<Primerka />} />
+          <Route path='Catalog' element={<Catalog />} />
         </Route>
       </Routes>
     </>

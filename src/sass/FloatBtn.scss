@@ -1,0 +1,63 @@
+.dialogModal {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 1%;
+  left: 68%;
+  border: 1px solid #000;
+  width: 400px;
+  height: 550px;
+}
+
+.dialogShapka {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(225, 196, 169);
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.mainPartChat {
+  background-image: url("../assets/dialog.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 510px;
+}
+
+.message-inp {
+  position: absolute;
+  bottom: 3%;
+  outline: none;
+  width: 100%;
+  border: 0;
+  background: none;
+  resize: none;
+  font-size: 14px;
+  line-height: 18px;
+  height: 29px;
+  min-height: 29px;
+  max-height: 170px;
+  padding: 13px 39px 13px 18px;
+  border-radius: 21px;
+  min-height: 29px;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  height: 44px;
+  width: 80%;
+  background-color: #fff;
+}
+
+.messageform {
+  padding: 12px;
+}
+
+.modal-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+}
